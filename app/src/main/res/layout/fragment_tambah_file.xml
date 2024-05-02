@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="450dp"
+    android:layout_height="300dp"
+    tools:context=".TambahFile"
+    android:layout_gravity="center"
+    android:background="@color/abuAbu">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Masukan Nama"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:textSize="30dp"
+        />
+    <EditText
+        android:layout_width="375dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:background="@drawable/background_edit_text"
+        android:layout_marginBottom="75dp"/>
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_margin="30dp"
+        android:layout_gravity="bottom|left"
+        android:background="@color/merah"
+        android:text="Batal"
+        android:textColor="@color/white"/>
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom|right"
+        android:layout_margin="30dp"
+        android:background="@color/hijau"
+        android:text="Batal"
+        android:textColor="@color/white"/>
+
+</FrameLayout>

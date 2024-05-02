@@ -1,0 +1,4 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background Shape -->
+    <item android:drawable="@drawable/fileIcon" />
+</layer-list>
